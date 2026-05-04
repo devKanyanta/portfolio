@@ -1,409 +1,592 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Portfolio</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
- <!-- Custom Theme files -->
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <meta name="keywords" content="Portfolio" />
-<!-- webfonts -->
-	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-<!-- webfonts -->
- <!---- start-smoth-scrolling---->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
- <!---- start-smoth-scrolling---->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapalo Kanyanta — Full-Stack Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
 </head>
-	<body>
-		<!-- container -->
-			<!-- header -->
-			<div id="home" class="header">
-				<div class="container">
-				<!-- top-hedader -->
-				<div class="top-header">
-					<!-- /logo -->
-					<!--top-nav---->
-					<div class="top-nav">
-					<div class="navigation">
-					<div class="logo">
-						<h1><a href="index.html"><span>P</span>ORTFOLIO</a></h1>
-					</div>
-					
-					<div class="clearfix"></div>
-				</div>
-				<!-- /top-hedader -->
-				</div>
-			<div class="banner-info">
-				<div class="col-md-7 header-right">
-					<h1>Hi !</h1>
-					<h6>FULL-STACK DEVELOPER</h6>
-					<ul class="address">
-					
-					<li>
-							<ul class="address-text">
-								<li><b>NAME</b></li>
-								<li>I'M MAPALO KANYANTA</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>OCCUPATION</b></li>
-								<li>FREELANCER</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>PHONE </b></li>
-								<li>+260 765 237 189</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>ADDRESS </b></li>
-								<li>Lusaka, Zambia.</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="address-text">
-								<li><b>E-MAIL </b></li>
-								<li><a href="mailto:mapalokanyanta1@gmail.com"> mapalokanyanta1@gmail.com</a></li>
-							</ul>
-						</li>
+<body>
 
-						<a href="https://github.com/devKanyanta" class="github-button">View My GitHub</a>
-						
-					</ul>
-				</div>
-				<div class="col-md-5 header-left">
-					<img src="images/img1.jpeg" alt="">
-				</div>
-				<div class="clearfix"> </div>
-						
-		      </div>
-			</div>
-		</div>
-	</div>
-			<!-- about -->
-			<div id="about" class="about">
-				<div class="col-md-6 about-left">
-					<div id="owl-demo1" class="owl-carousel owl-carousel2">
-						<div class="item" id="intro-slide">
-							<div class="about-left-grid">
-								<h2>👋 Hello! I'm Mapalo</h2>
-								<p>I’m a Computer Science student at the University of Zambia, tech enthusiast, and developer passionate about building impactful solutions and user-centric applications. With a focus on mobile app development, I'm experienced in Flutter and Firebase for both mobile and web, and I've built MVPs in AI tutoring and fintech. I also have backend experience with Node.js and MySQL and enjoy creating RESTful APIs.</p>
-							</div>
-						</div>
-						<div class="item" id="currently-working-on-slide">
-							<div class="about-left-grid">
-								<h2>🌱 Currently Working On</h2>
-								<ul>
-									<li><strong>Kafundisha:</strong> An AI-powered tutor app that helps students learn interactively through personalized content and structured courses.</li>
-									<li><strong>Library Management System:</strong> Building a database and API to streamline library management.</li>
-									<li><strong>Content Creation:</strong> Creating tutorials and UI guides on Flutter for YouTube, TikTok, and Instagram.</li>
-								</ul>
-							</div>
-						</div>
-						<div class="item" id="skills-slide">
-							<div class="about-left-grid">
-								<h2>🛠 Skills & Tools</h2>
-								<p><strong>Languages:</strong> Python, Java, Dart, JavaScript, PHP</p>
-								<p><strong>Frameworks & Libraries:</strong> Flutter, Node.js, Firebase, MySQL, MongoDB, Laravel</p>
-								<p><strong>AI & ML:</strong> Google Gemini, OpenAI API, 11labs API</p>
-								<p><strong>Other:</strong> Database Design, REST API Development, Linux OS, Shell Scripting</p>
-							</div>
-						</div>
-						<div class="item" id="fun-facts-slide">
-							<div class="about-left-grid">
-								<h2>💡 Fun Facts</h2>
-								<p>I’m always exploring new business ideas in tech and looking to build solutions for everyday needs. I’m a gamer at heart and enjoy diving into coding challenges in my spare time.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 about-right"></div>
-				<div class="clearfix"></div>
-			</div>
-			
-			<!-- Include jQuery, Owl Carousel, and Twemoji libraries -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-			<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet">
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-			<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script>
-			
-			<script>
-			$(document).ready(function() {
-				// Initialize Owl Carousel
-				$("#owl-demo1").owlCarousel({
-					items: 1,
-					autoPlay: true,
-					navigation: false,
-					pagination: true,
-				});
-			
-				// Parse emojis using Twemoji
-				twemoji.parse(document.body);
-			});
-			</script>
-			
-			
-			<!-- /about -->
-			<!-- services -->
-			<div id="services" class="services">
-				<div class="container">
-					<div class="service-head one text-center ">
-						<h4>WHAT I DO</h4>
-						<h3>MY <span>SERVICES</span></h3>
-						<span class="border two"></span>
-					</div>
-					<!-- services-grids -->
-					<div class="wthree_about_right_grids w3l-agile">
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-pencil"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>App Design</h4>
-						<p>I design very beautiful mobile app layouts for all screen variants</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-cog"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Mobile App Development</h4>
-						<p>I make android apps that are both simple and complex. I develop my apps to the best so I can deliever the best to my clients.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-leaf"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Web Design</h4>
-						<p>I design simple single paged websites.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-gift"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Desktop Apps</h4>
-						<p>I develop simple and complex apps for windows and linux operating systems.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+<!-- Cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
 
-					<!-- services-grids -->
-				</div>
-			</div>
-			<!-- services -->
-			<!--work-experience-->
-			<div id="work" class="work">
-				<div class="container">
-					<div class="service-head text-center">
-						<h4>WHAT I DID</h4>
-						<h3>MY <span>EXPERIENCE</span></h3>
-						<span class="border one"></span>
-					</div>
-					<div class="time-main w3l-agile">
-						<div class="col-md-6 year-info">
-							<ul class="year">
-								<li>2020</li>
-								<li>2021</li>
-								<li>2022</li>
-								<li>2023</li>
-								<li>2024</li>
-								<div class="clearfix"></div>
-							</ul>
-						</div> 
-						<ul class="col-md-6 timeline">
-							<!-- Experience #3: MDM Waste Man -->
-							<li>
-								<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">MDM Waste Management</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Developed an Android app for MDM WASTE MANAGEMENT in Kitwe to connect the company with customers, simplifying orders and payments.</p>
-									</div>
-								</div>
-							</li>
-			
-							<!-- Experience #2: DESAC -->
-							<li>
-								<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Full-Stack Mobile App Developer - DESAC</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Led the development of a feature-rich movie streaming app, handling the end-to-end process from conceptualization to deployment. Ensured robust functionality and intuitive design while collaborating with cross-functional teams to integrate user feedback, resulting in a highly engaging, scalable application.</p>
-									</div>
-								</div>
-							</li>
-			
-							<!-- Experience #1: SmileFin -->
-							<li>
-								<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Mobile App Developer - SmileFin</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Contributed to the development of a pioneering MVP app for a dynamic fintech startup, utilizing cutting-edge technologies. Played a key role in the conception, design, and implementation phases, ensuring adherence to timelines and quality standards as a collaborative team member focused on innovation and user-centric solutions.</p>
-									</div>
-								</div>
-							</li>
-
-							<!-- Project #1: Kafundisha AI Tutor App -->
-							<li>
-								<div class="timeline-badge success"><i class="glyphicon glyphicon-education"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Kafundisha AI Tutor App</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Developing an AI-powered tutor app that delivers interactive, personalized learning experiences with structured courses and real-time assistance.</p>
-									</div>
-								</div>
-							</li>
-			
-							<!-- Project #2: Library Management System -->
-							<li>
-								<div class="timeline-badge warning"><i class="glyphicon glyphicon-book"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Library Management System</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Designed and implemented a database and API to streamline library management, supporting efficient book tracking and user management.</p>
-									</div>
-								</div>
-							</li>
-			
-							<!-- Project #3: Content Creation -->
-							<li>
-								<div class="timeline-badge default"><i class="glyphicon glyphicon-facetime-video"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h4 class="timeline-title">Content Creation for YouTube, TikTok, and Instagram</h4>
-									</div>
-									<div class="timeline-body">
-										<p>Creating tutorials and UI guides focused on Flutter, covering common widgets and UI techniques for mobile app development.</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-			
-<div class="footer" id="contact">
-	<div class="container">
-	<div class="service-head one text-center">
-						<h4>CONTACT ME</h4>
-						<h3>GET <span>IN TOUCH WITH ME</span></h3>
-						<span class="border two"></span>
-					</div>
-		<div class="mail_us">
-			<div class="col-md-6 mail_left">
-				<div class="contact-grid1-left">
-					<div class="contact-grid1-left1">
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						<h4>Contact By Email</h4>
-						<ul>
-							<li>Mail: <a href="mailto:rahmkanyanta@gmail.com">mapalokanyanta1@gmail.com</a></li>
-						</ul>
-					</div>
-				</div>
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1">
-							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<h4>Contact By Phone</h4>
-							<ul>
-								<li>Phone: +260 765 237 189</li>
-							</ul>
-						</div>
-					</div>
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1">
-							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-							<h4>Looking For Address</h4>
-							<ul>
-								<li>Address:</li>
-								<li>Lusaka, Zambia.</li>
-							</ul>
-						</div>
-					</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-6 mail_right">
-				<form action="#" method="post">
-					<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-					<input type="submit" value="Send">
-					
-				</form>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-close" onclick="closeMobileNav()">✕</button>
+  <a href="#hero" onclick="closeMobileNav()">Home</a>
+  <a href="#about" onclick="closeMobileNav()">About</a>
+  <a href="#skills" onclick="closeMobileNav()">Skills</a>
+  <a href="#projects" onclick="closeMobileNav()">Projects</a>
+  <a href="#experience" onclick="closeMobileNav()">Experience</a>
+  <a href="#contact" onclick="closeMobileNav()">Contact</a>
 </div>
-<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<!--start-smooth-scrolling-->
-						<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-								<!--end-smooth-scrolling-->
-<!-- //for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-	
 
-	</body>
+<!-- Nav -->
+<nav id="mainNav">
+  <a href="#hero" class="nav-logo"><span>M</span>apalo.</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Hire Me</a>
+  <button class="hamburger" onclick="openMobileNav()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-noise"></div>
+  <div class="hero-left">
+    <div class="hero-tag">
+      <svg width="6" height="6" viewBox="0 0 6 6"><circle cx="3" cy="3" r="3" fill="currentColor"/></svg>
+      Available for projects
+    </div>
+    <h1 class="hero-h1">
+      Building <em>digital</em><br>
+      experiences that<br>
+      <span class="gold">matter.</span>
+    </h1>
+    <p class="hero-sub">I'm Mapalo Kanyanta — a Full-Stack Developer & Freelancer based in Lusaka, Zambia. I build beautiful mobile apps, web platforms, and AI-powered solutions.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">
+        View my work
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="https://github.com/devKanyanta" target="_blank" class="btn-ghost">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">8+</div>
+        <div class="hero-stat-label">Years coding</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">10+</div>
+        <div class="hero-stat-label">Projects shipped</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">4</div>
+        <div class="hero-stat-label">Companies served</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img-wrap">
+      <img src="images/me.jpg" alt="Mapalo Kanyanta">
+      <div class="hero-badge">
+        <div class="hero-badge-icon">⚡</div>
+        <div class="hero-badge-text">
+          <div class="hero-badge-title">Fast Delivery</div>
+          <div class="hero-badge-sub">MVPs in weeks</div>
+        </div>
+      </div>
+      <div class="hero-badge2">
+        <span>5★</span>
+        Client rated
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-hint-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="max-w">
+    <div class="reveal">
+      <div class="section-tag">01 — About Me</div>
+      <h2 class="section-h2">Code. Create. <em>Innovate.</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy reveal-left">
+        <p>I'm a Computer Science student at the University of Zambia and a passionate developer who turns ideas into impactful digital products. My focus spans mobile app development, backend systems, and AI integration.</p>
+        <p>With hands-on experience building MVPs for fintech startups and media companies, I bring both technical depth and product thinking to every project. I love solving real problems for real people.</p>
+        <p>When I'm not coding, I'm creating Flutter tutorials on YouTube, TikTok, and Facebook — sharing knowledge with the next generation of developers.</p>
+        <div class="about-detail-grid" style="margin-top: 32px;">
+          <div class="about-detail">
+            <div class="about-detail-label">Name</div>
+            <div class="about-detail-val">Mapalo Kanyanta</div>
+          </div>
+          <div class="about-detail">
+            <div class="about-detail-label">Location</div>
+            <div class="about-detail-val">Lusaka, Zambia</div>
+          </div>
+          <div class="about-detail">
+            <div class="about-detail-label">Email</div>
+            <div class="about-detail-val" style="font-size: 0.82rem;">mapalokanyanta1@gmail.com</div>
+          </div>
+          <div class="about-detail">
+            <div class="about-detail-label">Status</div>
+            <div class="about-detail-val" style="color: var(--accent);">● Open to work</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual reveal-right">
+        <div class="about-card">
+          <div class="about-card-icon"></div>
+          <h3>Currently building</h3>
+          <p>Sambilila (meaning “Learn”) is an AI-powered study productivity web application designed to help students learn faster and smarter by automatically converting notes into interactive flashcards and quizzes.</p>
+          <div class="tag-list">
+            <span class="tag">AI/ML</span>
+            <span class="tag">NextJS</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">GEMINI API</span>
+          </div>
+        </div>
+        <div class="about-card accent">
+          <h3>Fun Fact</h3>
+          <p>I'm always exploring new business ideas in tech, looking to build solutions for everyday needs. Gamer at heart, coder by passion.</p>
+          <div class="tag-list">
+            <span class="tag" style="background: rgba(232,200,114,0.15); color: var(--gold2); border-color: rgba(232,200,114,0.3);">Entrepreneur</span>
+            <span class="tag" style="background: rgba(232,200,114,0.15); color: var(--gold2); border-color: rgba(232,200,114,0.3);">Gamer</span>
+            <span class="tag" style="background: rgba(232,200,114,0.15); color: var(--gold2); border-color: rgba(232,200,114,0.3);">Content Creator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <div class="max-w">
+    <div class="reveal">
+      <div class="section-tag">02 — Skills & Stack</div>
+      <h2 class="section-h2">My <em>technical</em> toolkit</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="skills-grid stagger" style="margin-top: 56px;">
+      <div class="skill-card" data-skill="mobile">
+        <div class="skill-card-overlay"></div>
+        <div class="skill-card-content">
+          <h3>Mobile Development</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">Flutter</span>
+            <span class="tech-pill">Dart</span>
+            <span class="tech-pill">Firebase</span>
+            <span class="tech-pill">Android</span>
+            <span class="tech-pill">iOS</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card" data-skill="backend">
+        <div class="skill-card-overlay"></div>
+        <div class="skill-card-content">
+          <h3>Backend & APIs</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">PHP</span>
+            <span class="tech-pill">Laravel</span>
+            <span class="tech-pill">REST API</span>
+            <span class="tech-pill">MySQL</span>
+            <span class="tech-pill">MongoDB</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card" data-skill="ai">
+        <div class="skill-card-overlay"></div>
+        <div class="skill-card-content">
+          <h3>AI & Machine Learning</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">Google Gemini</span>
+            <span class="tech-pill">OpenAI API</span>
+            <span class="tech-pill">11Labs API</span>
+            <span class="tech-pill">Python</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card" data-skill="languages">
+        <div class="skill-card-overlay"></div>
+        <div class="skill-card-content">
+          <h3>Languages & Tools</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">Java</span>
+            <span class="tech-pill">JavaScript</span>
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">Linux</span>
+            <span class="tech-pill">Shell Scripting</span>
+            <span class="tech-pill">Git</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card" data-skill="database">
+        <div class="skill-card-overlay"></div>
+        <div class="skill-card-content">
+          <h3>Database Design</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">MySQL</span>
+            <span class="tech-pill">MongoDB</span>
+            <span class="tech-pill">Firebase Firestore</span>
+            <span class="tech-pill">Realtime DB</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-card" data-skill="design">
+        <div class="skill-card-overlay"></div>
+        <div class="skill-card-content">
+          <h3>Design & Frontend</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">App Design</span>
+            <span class="tech-pill">HTML/CSS</span>
+            <span class="tech-pill">UI/UX</span>
+            <span class="tech-pill">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <div class="max-w">
+    <div class="projects-header reveal">
+      <div>
+        <div class="section-tag">03 — Projects</div>
+        <h2 class="section-h2">Work that <em>speaks</em> for itself</h2>
+        <div class="section-rule"></div>
+      </div>
+      <a href="https://github.com/devKanyanta" target="_blank" class="btn-ghost" style="align-self: flex-end;">
+        All projects
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="projects-grid stagger">
+      <div class="project-card" project-card="smilefin">
+        <div class="project-body">
+          <h3>SmileFin Fintech MVP</h3>
+          <p>Contributed to a pioneering MVP for a dynamic fintech startup. Led conception, design, and implementation phases with a focus on user-centric financial solutions.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span>Flutter</span><span>Firebase</span>
+          </div>
+          <a href="https://github.com/devKanyanta" target="_blank" class="project-link">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="project-card" project-card="desac">
+        <div class="project-body">
+          <h3>DESAC Streaming App</h3>
+          <p>Full-stack mobile movie streaming platform built end-to-end — from conceptualization to deployment — with an intuitive design and scalable architecture.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span>Flutter</span><span>MySQL</span><span>REST API</span><span>ReactJS</span>
+          </div>
+          <a href="https://github.com/devKanyanta" target="_blank" class="project-link">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="project-card" project-card="sambilila">
+        <div class="project-body">
+          <h3>Sambilila</h3>
+          <p>Sambilila (meaning “Learn”) is an AI-powered study productivity web application designed to help students learn faster and smarter by automatically converting notes into interactive flashcards and quizzes.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span>NextJS</span><span>Gemini AI</span><span>PostgreSQL</span>
+          </div>
+          <a href="https://github.com/devKanyanta" target="_blank" class="project-link">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="project-card" project-card="flutter-dev">
+        <div class="project-body">
+          <h3>Flutter Dev Content</h3>
+          <p>Creating tutorials and UI guides on Flutter for YouTube, TikTok, and Instagram — covering widgets, animations, Firebase, and full app builds for aspiring developers.</p>
+        </div>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span>Flutter</span><span>YouTube</span><span>TikTok</span>
+          </div>
+          <a href="https://github.com/devKanyanta" target="_blank" class="project-link">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ── -->
+<section id="experience">
+  <div class="max-w">
+    <div class="reveal">
+      <div class="section-tag">04 — Experience & Services</div>
+      <h2 class="section-h2">What I do &amp; where I've <em>been</em></h2>
+      <div class="section-rule" style="background: var(--gold);"></div>
+    </div>
+    <div class="exp-grid">
+      <div class="exp-services stagger">
+        <div class="exp-service">
+          <div class="exp-service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+              <path d="M12 18h.01"></path>
+            </svg>
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>Cross-platform apps for Android & iOS using Flutter and Firebase. From MVP to production-ready.</p>
+        </div>
+        <div class="exp-service">
+          <div class="exp-service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M2 12h20"></path>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Clean, fast web platforms with Node.js backends and responsive frontends. APIs included.</p>
+        </div>
+        <div class="exp-service">
+          <div class="exp-service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="7" width="18" height="13" rx="2" ry="2"></rect>
+              <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+              <circle cx="8" cy="13" r="1"></circle>
+              <circle cx="16" cy="13" r="1"></circle>
+            </svg>
+          </div>
+          <h3>AI Integration</h3>
+          <p>Embedding Gemini, OpenAI, and 11Labs into real products. Smart features, real value.</p>
+        </div>
+        <div class="exp-service">
+          <div class="exp-service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+            </svg>
+          </div>
+          <h3>Backend & Database Design</h3>
+          <p>Robust REST APIs, schema design, and database architecture for scalable applications.</p>
+        </div>
+        <div class="exp-service">
+          <div class="exp-service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M10 17v4"></path>
+              <path d="M14 17v4"></path>
+              <path d="M6 21h12"></path>
+            </svg>
+          </div>
+          <h3>Desktop Applications</h3>
+          <p>Cross-platform desktop apps for Windows and Linux — simple or complex, built to last.</p>
+        </div>
+      </div>
+      <div class="timeline reveal-right">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2025 - Present</div>
+          <div class="tl-title">Software Developer Intern</div>
+          <div class="tl-company">Findura Infosys Limited</div>
+          <div class="tl-desc">Assisting in the development of web and mobile applications, gaining hands-on experience in software development lifecycle.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2023 — 2024</div>
+          <div class="tl-title">Full-Stack Mobile App Developer</div>
+          <div class="tl-company">DESAC</div>
+          <div class="tl-desc">Led end-to-end development of a feature-rich movie streaming app. Handled conceptualization, architecture, UI design, and deployment, collaborating with cross-functional teams.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2022 — 2023</div>
+          <div class="tl-title">Mobile App Developer</div>
+          <div class="tl-company">SmileFin</div>
+          <div class="tl-desc">Contributed to a pioneering fintech MVP, utilizing cutting-edge technologies. Played a key role in design and implementation phases, ensuring adherence to quality standards.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2021 — 2022</div>
+          <div class="tl-title">Android Developer</div>
+          <div class="tl-company">MDM Waste Management</div>
+          <div class="tl-desc">Developed an Android app connecting the company with customers in Kitwe, simplifying waste collection orders and digital payments.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-date">2020 — Present</div>
+          <div class="tl-title">Freelance Developer & Content Creator</div>
+          <div class="tl-company">Self-Employed</div>
+          <div class="tl-desc">Taking on freelance projects while building a content creation presence on YouTube, TikTok, and Instagram teaching Flutter development.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section id="testimonials">
+  <div class="max-w">
+    <div class="reveal">
+      <div class="section-tag">05 — Testimonials</div>
+      <h2 class="section-h2">What clients <em>say</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="testimonials-grid stagger">
+      <div class="testimonial-card">
+        <div class="testimonial-quote">"</div>
+        <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+        <p class="testimonial-text">Mapalo delivered our waste management app ahead of schedule. The UI was clean, the backend was solid, and he communicated clearly throughout. Highly recommended for any mobile project.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">MD</div>
+          <div>
+            <div class="testimonial-name">MDM Director</div>
+            <div class="testimonial-role">MDM Waste Management, Kitwe</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">"</div>
+        <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+        <p class="testimonial-text">Working with Mapalo on our fintech MVP was a great experience. He brought both technical skill and a strong product sense. Our app launched on time and users loved it.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">SF</div>
+          <div>
+            <div class="testimonial-name">Founder</div>
+            <div class="testimonial-role">SmileFin, Zambia</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-quote">"</div>
+        <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+        <p class="testimonial-text">The streaming app Mapalo built for us exceeded our expectations. His attention to scalability and UX made for a polished product our users rave about.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">DE</div>
+          <div>
+            <div class="testimonial-name">Executive Team</div>
+            <div class="testimonial-role">DESAC, Zambia</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="max-w">
+    <div class="reveal">
+      <div class="section-tag">06 — Contact</div>
+      <h2 class="section-h2">Let's build something <em>great</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <h3>Have a project in mind? I'd love to hear about it.</h3>
+        <p>Whether you need a mobile app, a web platform, or AI integration — I'm here to help turn your vision into a working product. Let's talk.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <span>Email</span>
+            <a href="mailto:mapalokanyanta1@gmail.com">mapalokanyanta1@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <span>Phone</span>
+            <a href="tel:+260765237189">+260 765 237 189</a>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <div class="contact-detail-text">
+            <span>Location</span>
+            <a href="#">Lusaka, Zambia</a>
+          </div>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/devKanyanta" target="_blank" class="social-btn" title="GitHub">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          </a>
+          <a href="https://zm.linkedin.com/in/mapalo-kanyanta-840553240" target="_blank" class="social-btn" title="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.732-2.004 1.438-.103.249-.129.597-.129.946v5.421h-3.554s.047-8.789 0-9.708h3.554v1.375c.427-.659 1.191-1.597 2.897-1.597 2.117 0 3.704 1.385 3.704 4.362v5.568zM5.337 8.855c-1.144 0-1.915-.759-1.915-1.71 0-.956.77-1.71 1.956-1.71 1.184 0 1.915.754 1.938 1.71 0 .951-.754 1.71-1.979 1.71zm1.568 11.597H3.768V8.744h3.137v11.708zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form reveal-right" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your name</label>
+            <input type="text" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" name="email" placeholder="john@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Let's work together" required>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          Send message
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h12M10 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form-note">I typically respond within 24 hours </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-logo"><span>M</span>apalo Kanyanta</div>
+  <div class="footer-copy">© 2025 Mapalo Kanyanta. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="https://github.com/devKanyanta" target="_blank">GitHub</a>
+  </div>
+</footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
 </html>
-
