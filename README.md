@@ -29,6 +29,8 @@ js/main.js          Boot, loader, Lenis, scroll → camera mapping, reveals, nav
 js/scene.js         The Three.js world: camera path, objects, hover picking
 vendor/             three.js r160, GSAP 3.12.5 + ScrollTrigger, Lenis 1.1.13 (local copies)
 images/             Project screenshots/logos, portrait, og.jpg (social share image)
+Mapalo_Kanyanta_CV.pdf   Downloadable CV (replace this file to update it)
+favicon*.png/.ico   Favicons cropped from your photo
 ```
 
 ## How the scroll journey works

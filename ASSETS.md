@@ -32,3 +32,10 @@ None. Every 3D shape is generated in code with Three.js primitives.
 | `images/content-creation-640.jpg` | Resized from your `content-creation.png` |
 
 No stock images are used. The tech props in the 3D scene and their on-screen "code" are drawn procedurally.
+
+## Other files
+
+| File | Source |
+|---|---|
+| `Mapalo_Kanyanta_CV.pdf` | Your CV, offered as a download in the hero and contact sections. To update it, replace the file and keep the name. |
+| `favicon.ico`, `favicon-32/180/192.png` | Cropped from your photo (`me.jpg`) |
